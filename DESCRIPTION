@@ -1,11 +1,38 @@
 Package: textSummary
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Summarise text, build models, create word clouds and other summary plots.
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Fahad Usman
+Maintainer: Fahad Usman <fahadshery@gmail.com>
+Description: Text summarisation for word processing and sentiment analysis using
+    'tidytext', 'ggplot2', and other tidy tools.
+License: GPL-2
 Encoding: UTF-8
 LazyData: true
+URL: https://github.com/fahadshery/textsummary
+BugReports: https://github.com/fahadshery/textsummary/issues
+Depends: R (>= 2.10)
+Imports: rlang,
+    dplyr,
+    stringr,
+    hunspell,
+    purrr (>= 0.1.1),
+    extrafont,
+    maggittr
+Suggests: readr,
+    tidyr,
+    tm,
+    quanteda,
+    knitr,
+    rmarkdown,
+    ggplot2,
+    reshape2,
+    wordcloud,
+    topicmodels,
+    NLP,
+    scales,
+    testthat,
+    mallet,
+    stm,
+    data.table
+    
