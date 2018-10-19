@@ -8,14 +8,14 @@
 #' @param plot return a ggplot2? TRUE by default
 #' @param number_of_words_to_plot how many words/terms to plot? Plots Top 10 words in a collection of text documents by default.
 #' @param clean_text pre-process text? FALSE by default due to performance issues. Lammatizes and singularises words before counting
-#' @param get_all_word_freqs return all words with their respective frequencies i.e. occurance within the whole text document (whole text_col)
-#' @importFrom magittr %>%
+#' @param get_all_word_freqs return all words with their respective frequencies i.e. occurance within the whole text document i.e. whole text_col
+#' @importFrom magrittr %>%
 #' @name word_frequencies
 #' @rdname word_frequencies
 #' @export
 #' @seealso \code{\link[textSummary]{word_frequencies_by_category}}
-#' @examples \dontrun {
-#' }
+#' @examples \dontrun{}
+#'
 #'
 word_frequencies <- function(df,
                              text_col,

@@ -17,8 +17,7 @@ Imports: rlang,
     stringr,
     hunspell,
     purrr (>= 0.1.1),
-    extrafont,
-    maggittr
+    extrafont
 Suggests: readr,
     tidyr,
     tm,
@@ -35,5 +34,6 @@ Suggests: readr,
     mallet,
     stm,
     sentimentr,
+    magrittr,
     data.table
-    
+RoxygenNote: 6.1.0
