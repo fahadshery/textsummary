@@ -1,11 +1,11 @@
 Package: textSummary
 Type: Package
-Title: Summarise text, build models, create word clouds and other summary plots.
+Title: Summarise text, build LDA, tf-idf models, create word clouds and other summary plots.
 Version: 0.1.0
 Author: Fahad Usman
 Maintainer: Fahad Usman <fahadshery@gmail.com>
 Description: Text summarisation for word processing and sentiment analysis using
-    'tidytext', 'ggplot2', and other tidy tools.
+    'tidytext', 'sentimentr', and other tidy tools.
 License: GPL-2
 Encoding: UTF-8
 LazyData: true
@@ -34,5 +34,6 @@ Suggests: readr,
     testthat,
     mallet,
     stm,
+    sentimentr,
     data.table
     
