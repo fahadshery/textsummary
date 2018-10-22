@@ -1,23 +1,27 @@
 Package: textSummary
 Type: Package
-Title: Summarise text, build LDA, tf-idf models, create word clouds and other summary plots.
+Title: Summarise text, build LDA, tf-idf models, create word clouds and other summary plots
 Version: 0.1.0
 Author: Fahad Usman
 Maintainer: Fahad Usman <fahadshery@gmail.com>
 Description: Text summarisation for word processing and sentiment analysis using
     'tidytext', 'sentimentr', and other tidy tools.
-License: GPL-2
+License: GPL
 Encoding: UTF-8
 LazyData: true
 URL: https://github.com/fahadshery/textsummary
 BugReports: https://github.com/fahadshery/textsummary/issues
 Depends: R (>= 2.10)
-Imports: rlang,
+Imports: tidytext,
+    rlang,
     dplyr,
     stringr,
     hunspell,
     purrr (>= 0.1.1),
-    extrafont
+    extrafont,
+    magrittr,
+    stats,
+    forcats
 Suggests: readr,
     tidyr,
     tm,
@@ -34,6 +38,11 @@ Suggests: readr,
     mallet,
     stm,
     sentimentr,
-    magrittr,
+    pluralize,
+    textstem,
+    drlib,
+    RColorBrewer,
+    textSummary,
+    lazyeval,
     data.table
 RoxygenNote: 6.1.0

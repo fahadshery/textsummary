@@ -5,8 +5,7 @@
 \title{Return top n word frequencies in a collection of text documents}
 \usage{
 word_frequencies(df, text_col, number_of_words = 1, plot = TRUE,
-  number_of_words_to_plot = 10, clean_text = FALSE,
-  get_all_word_freqs = FALSE)
+  number_of_words_to_plot = 10, clean_text = FALSE)
 }
 \arguments{
 \item{df}{a tidy dataframe/tribble.}
@@ -19,21 +18,20 @@ word_frequencies(df, text_col, number_of_words = 1, plot = TRUE,
 
 \item{number_of_words_to_plot}{how many words/terms to plot? Plots Top 10 words in a collection of text documents by default.}
 
-\item{clean_text}{pre-process text? FALSE by default due to performance issues. Lammatizes and singularises words before counting}
-
-\item{get_all_word_freqs}{return all words with their respective frequencies i.e. occurance within the whole text document i.e. whole text_col}
+\item{clean_text}{pre-process text? FALSE by default. Lammatizes and get rid of extra spaces before and words before counting}
 }
 \description{
 Splits the text verbatim into words, count the number of words. Either plots or returns the top n words in a collection of text documents.
 }
 \examples{
-\dontrun{}
-
+\dontrun{
+data("text_data")
+word_frequencies(verbatim,text_col = text)
+word_frequencies(verbatim,text_col = text,number_of_words = 2,clean_text = TRUE)
+word_frequencies(verbatim,text_col = text,number_of_words = 3)
+}
 
 }
 \seealso{
 \code{\link[textSummary]{word_frequencies_by_category}}
-}
-\author{
-Fahad Usman
 }
