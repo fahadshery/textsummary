@@ -44,5 +44,6 @@ Suggests: readr,
     RColorBrewer,
     textSummary,
     lazyeval,
+    textfeatures,
     data.table
 RoxygenNote: 6.1.0

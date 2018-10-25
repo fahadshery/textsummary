@@ -3,6 +3,7 @@
 export(categorical_var_numeric_summary)
 export(categorical_var_summary)
 export(categorical_var_summary_by_segments)
+export(get_text_features)
 export(text_summary_cloud)
 export(text_summary_cloud_by_category)
 export(tf_idf_by_category)
