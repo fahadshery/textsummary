@@ -45,5 +45,6 @@ Suggests: readr,
     textSummary,
     lazyeval,
     textfeatures,
+    udpipe,
     data.table
 RoxygenNote: 6.1.0

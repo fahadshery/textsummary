@@ -17,3 +17,19 @@
 #' @usage data(text_data)
 #' @format A data frame with 2385 rows and 6 variables
 NULL
+
+#' BBC articles in raw text on online gaming
+#'
+#' A dataset containing the BBC articles text in raw text.
+#' The variables are as follows:
+#'
+#' \itemize{
+#'   \item text bbc article in raw text
+#' }
+#'
+#' @docType data
+#' @keywords datasets
+#' @name bbc_articles
+#' @usage data(bbc_articles)
+#' @format A data frame with 44 bbc articles on gaming
+NULL
